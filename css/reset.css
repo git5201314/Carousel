@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+html{color: #000;background: #FFF;}
+input:focus{outline: none;}/*去掉谷歌浏览器的文本框获得焦点时自动渲染的边框*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin: 0;padding: 0;}
+fieldset,img{border: none;}
+table{border-collapse: collapse;border-spacing: 0;}
+ol,ul{list-style: none;}
+a{text-decoration: none;}
+address,caption,cite,code,dfn,em,strong,th,var,strong,b,u,i{font-weight: normal;font-style: normal;}
+caption,th{text-align: left;}
+h1,h2,h3,h4,h5,h6{font-weight: normal;font-size: 100%;}
+input,textarea,select {font-family: inherit;font-size: inherit;font-weight: inherit;font-size: 100%;border: none;}
+/*清浮动*/
+.clearfix:after,.clearfix:before{content: '';display: table;}
+.clearfix:after{clear: both;}
+/*倒影*/
+.reflect{-webkit-box-reflect: below 0px -webkit-gradient(
+		    	linear,
+		    	left top,
+		    	left bottom,
+		    	from(transparent),
+		    	color-stop(50%,transparent),
+		    	to(rgba(255,255,255,.3))
+		    );}
